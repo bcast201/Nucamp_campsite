@@ -1,7 +1,7 @@
 {
-  "name": "nucampsite",
+  "name": "downtown_deli",
   "version": "1.0.0",
-  "description": "This is a website for the fictional compsites review site Nucamp",
+  "description": "This is a website for Downtown Deli. Lincoln, NE",
   "main": "index.js",
   "scripts": {
     "lite": "lite-server",

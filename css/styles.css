@@ -1,36 +1,64 @@
 body {
     font-family: "open sans", sans-serif;
+    background-color: #f9f9f9
 }
 
-h1, h2, h3 {
-    font-family: "lobster", cursive;
-}
-h2 {
-    color: #3046c5;
+nav {
+    font-family: 'Manrope', sans-serif;
 }
 
-header h2 {
-    color: #CEC8FF
+h2, p {
+    font-family: 'Manrope', sans-serif;
 }
 
-.site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
+footer {
+    font-family: 'Manrope', sans-serif;
 }
 
-.jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
-    color: white;
+.footer-color {
+    background-color: #4B515D;
 }
 
-.row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+.modal-special-text {
+    font-family: 'Manrope', sans-serif;
 }
 
-.navbar{
-    background-color: #901CAD
+.img-grid {
+    width: auto;
+    height: 550px;
+    object-fit: cover;
 }
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin: 50px;
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+ .carousel-caption {
+    position: absolute;
+    top: 44%;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    background: rgba(41, 43, 44, 0.7);
+    }
+    
+ /*.carousel-inner{
+    width:100%;
+    max-height: 750px !important;
+    } 
+/*
